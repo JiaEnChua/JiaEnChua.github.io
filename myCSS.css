@@ -51,6 +51,7 @@ a:active {
 
 ul {
 	list-style-type: disc;
+	color: #5c8ad6;
 }
 /************************* ID's *************************/
 #header {
@@ -81,7 +82,7 @@ ul {
 
 #purdue p {
 	width:80%;
-	margin-bottom: 4%;
+	margin-bottom: 5%;
 }
 
 #Aeste {
@@ -92,6 +93,7 @@ ul {
 
 #spark {
 	width:60%;
+	margin-top: 3%;
 	margin-left: 20%;
 }
 
