@@ -49,44 +49,49 @@ a:active {
 	font-weight: bold;
 }
 
+ul {
+	list-style-type: disc;
+}
 /************************* ID's *************************/
 #header {
 	text-align: center;
-}
-
-#header1 {
-	background: url('bg.jpg') no-repeat 0 -180px;
-	position: absolute;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #fcfcf7;
 }
 
 #header h1{
-	color: #ffffff;
-}
-#header a{
+	color: black;
 }
 
 #achievement h1{
 	text-align: center;
 	background-color: grey;
-	min-height: 100px;
 	padding-top: 80px;
-	margin: 0;
+	padding-bottom: 80px;
+	color: white;
 }
 
 #purdue {
-	width:100%;
+	width:60%;
 	margin-top: 2%;
 	margin-left: 20%;
+	border-bottom: 2px solid grey;
+}
+
+#purdue p {
+	width:80%;
+	margin-bottom: 4%;
 }
 
 #Aeste {
-	width:100%;
-	margin-top: 5%;
+	width:60%;
 	margin-left: 20%;
+	border-bottom: 2px solid grey;
 }
 
 #spark {
-	width:100%;
+	width:60%;
 	margin-left: 20%;
 }
 
@@ -99,5 +104,5 @@ a:active {
 }
 #contact p {
 	color: white;
-	font-size: 8px;
+	font-size: 20px;
 }
