@@ -1,7 +1,6 @@
 /* Generic Selectors */
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	width: 138%;
 }
 
 p {
@@ -9,11 +8,6 @@ p {
 	width: 60%;
 	font-size: 16px;
 	color: #5c8ad6;
-}
-
-li {
-	list-style-type: disc;
-	line-height: 150%;
 }
 
 h1 {
@@ -29,11 +23,6 @@ h2 {
 
 h3 {
 	color: #1ebf5e;
-	margin:0;
-}
-
-h4 {
-	margin:0;
 }
 
 /**************** Pseudo classes ****************/
@@ -43,21 +32,9 @@ a:link {
 	font-weight: bold;
 }
 
-li a:link {
-	color: #00CC00;
-	text-decoration: none;
-	font-weight: bold;
-}
-
 a:visited {
 	color: #00CC00;
 	text-decoration: underline;
-	font-weight: bold;
-}
-
-li a:visited {
-	color: #00CC00;
-	text-decoration: none;
 	font-weight: bold;
 }
 
@@ -65,16 +42,6 @@ a:hover {
 	color: #00CC00;
 	padding-bottom: 5px;
 	font-weight: bold;
-}
-
-li a:hover {
-	display: block;
-	color: rgb(255, 0, 102);
-	padding-bottom: 5px;
-	font-weight: bold;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #C6EC8C;
 }
 
 a:active {
