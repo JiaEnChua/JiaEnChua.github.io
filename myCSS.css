@@ -97,12 +97,13 @@ ul {
 
 #contact {
 	margin-top: 60px;
-	background-color: #8290a3;
-	border-top-style: solid;
-	border-top-color: black;
+	background-color: black;
 	padding-top: 10px;
 }
 #contact p {
 	color: white;
 	font-size: 20px;
+}
+.pic {
+	margin-left:45%;
 }
