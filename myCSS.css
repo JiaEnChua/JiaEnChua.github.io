@@ -51,13 +51,11 @@ a:active {
 
 /************************* ID's *************************/
 #header {
+	text-align: center;
 }
 
 #header1 {
 	background: url('bg.jpg') no-repeat 0 -180px;
-	text-align: center;
-	padding-top: 100px;
-	min-height: 300px;
 	position: absolute;
 }
 
@@ -65,7 +63,6 @@ a:active {
 	color: #ffffff;
 }
 #header a{
-	text-align: center;
 }
 
 #achievement h1{
