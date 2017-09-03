@@ -10,17 +10,6 @@ p {
 	color: #5c8ad6;
 }
 
-h1 {
-	font-weight: bold;
-}
-
-h2 {
-	font-size: 16px;
-	font-weight: bold;
-	color: #000000;
-	border-bottom: 1px solid #C6EC8C;
-}
-
 h3 {
 	color: #1ebf5e;
 }
@@ -30,6 +19,7 @@ a:link {
 	color: rgb(0, 96, 255);
 	text-decoration: underline;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 a:visited {
@@ -59,21 +49,29 @@ ul {
 /************************* ID's *************************/
 #header {
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-color: #fcfcf7;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url("cover2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: -22px;
 }
 
-#header h1{
-	color: black;
-}
-
-#achievement h1{
-	text-align: center;
-	background-color: grey;
-	padding-top: 80px;
-	padding-bottom: 80px;
+#header h1 {
 	color: white;
+	font-size: 50px;
+	font-family: "Arial Black", sans-serif;
+	font-style: bold;
+}
+
+#achievement {
+	text-align: center;
+	background-color: black;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	color: white;
+	font-family: "Garamond", serif;
+	font-size: 20px;
 }
 
 #purdue {
