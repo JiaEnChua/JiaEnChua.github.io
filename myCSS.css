@@ -59,9 +59,12 @@ ul {
 
 #header h1 {
 	color: white;
-	font-size: 50px;
+	font-size:60px;
 	font-family: "Arial Black", sans-serif;
 	font-style: bold;
+}
+.firstname {
+	margin-bottom: -40px;
 }
 
 #achievement {
@@ -99,6 +102,7 @@ ul {
 	border-bottom: 2px solid grey;
 }
 
+
 #TA {
 	width:60%;
 	margin-left: 20%;
@@ -117,4 +121,10 @@ ul {
 .pic {
 	margin-left:45%;
 	margin-top: 10px;
+}
+.mail {
+	margin-top: 20px;
+}
+.mail:hover{
+	margin-top: 15px;
 }
