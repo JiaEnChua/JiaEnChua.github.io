@@ -52,6 +52,9 @@ a:active {
 ul {
 	list-style-type: disc;
 	color: #5c8ad6;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 16px;
+	width: 65%;
 }
 /************************* ID's *************************/
 #header {
@@ -95,6 +98,13 @@ ul {
 	width:60%;
 	margin-top: 3%;
 	margin-left: 20%;
+	border-bottom: 2px solid grey;
+}
+
+#TA {
+	width:60%;
+	margin-left: 20%;
+	margin-top: 2%;
 }
 
 #contact {
@@ -108,4 +118,5 @@ ul {
 }
 .pic {
 	margin-left:45%;
+	margin-top: 10px;
 }
