@@ -70,46 +70,19 @@ nav a:hover{
 	border-bottom: 3px solid white;
 }
 
-#achievement {
-	text-align: center;
-	background-image: url(achievementBG.jpg);
-	padding-top: 40px;
-	padding-bottom: 40px;
-	color: white;
-	font-family: "Garamond", serif;
-	font-size: 20px;
+#parallax {
+	background-image: url("cover.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 700px;
 }
 
-#purdue {
-	margin-top: 5%;
-	margin-left: 20%;
-}
-
-.purduetext {
-	width:50%;
-	margin-bottom: 5%;
-	margin-left: 40%;
-}
-
-#Aeste {
-	width:60%;
-	margin-left: 20%;
-	border-bottom: 2px solid grey;
-}
-
-#spark {
-	width:60%;
-	margin-top: 3%;
-	margin-left: 20%;
-	border-bottom: 2px solid grey;
-}
-
-
-#TA {
-	width:60%;
-	margin-left: 20%;
-	margin-top: 20px;
-	margin-bottom: 40px;
+#sunshine {
+	background-image: url("cover3.jpg");
+	background-repeat: no-repeat;
+	min-height: 500px;
 }
 
 #contact {
