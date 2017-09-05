@@ -14,27 +14,22 @@ body {
 	margin:0;
 }
 
-p {
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-	width: 60%;
-	font-size: 16px;
-	color: #5c8ad6;
-}
 
 /************************* ID's *************************/
 #header {
 	text-align: center;
-	min-height: 500px;
-	background-image: url("cover2.jpg");
+	min-height: 650px;
+	background-image: url("cover3.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
+  background-position: center;
 }
 #header h1 {
 	color: white;
 	font-size:60px;
 	font-family: "Arial Black", sans-serif;
 	font-style: bold;
-	padding-top: 200px;
+	padding-top: 300px;
 }
 #header img {
 	float: left;
@@ -42,7 +37,7 @@ p {
 	height: 200px;
 	margin-left: 130px;
 	margin-right: -250px;
-	margin-top: 150px;
+	padding-top: 250px;
 }
 
 nav {
@@ -73,22 +68,35 @@ nav a:hover{
 #achievement {
 	text-align: center;
 	background-image: url(achievementBG.jpg);
-	padding-top: 40px;
-	padding-bottom: 40px;
+	min-height:130px;
+  padding-top: 80px;
 	color: white;
 	font-family: "Garamond", serif;
-	font-size: 20px;
+	font-size: 40px;
 }
 
 #purdue {
-	margin-top: 5%;
-	margin-left: 20%;
+  	padding-top: 150px;
+    padding-bottom: 150px;
+    float: left;
+}
+#purdue::before, #purdue::after {
+    display: table;
+    content: " ";
+}
+#purdue::after {
+  clear: both;
 }
 
+#purdue img {
+	margin-left: 20%;
+  width:200px;
+  height:100px;
+
+}
 .purduetext {
 	width:50%;
-	margin-bottom: 5%;
-	margin-left: 40%;
+	margin-left: 100px;
 }
 
 #Aeste {
