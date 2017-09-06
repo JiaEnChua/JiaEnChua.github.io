@@ -77,13 +77,13 @@ nav a:hover{
 
 #purdue {
   height:300px;
-  padding-right: 40%;
+  padding-right: 20%;
   padding-top: 100px;
   padding-left: 25%;
 }
 #purdue img {
   padding-right: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   width:200px;
   height:100px;
   float:left;
@@ -92,7 +92,6 @@ nav a:hover{
 
 #aeste {
   height:400px;
-	width:45%;
 	padding-left: 25%;
   padding-top: 3%;
 }
@@ -100,7 +99,9 @@ nav a:hover{
    float:right;
    width:250px;
    height:180px;
-   padding-left: 30%;
+   padding-left: 15%;
+   padding-bottom: 100px;
+   padding-right: 15%;
 }
 
 #spark {
@@ -109,13 +110,13 @@ nav a:hover{
   padding-bottom: 100px;
 }
 #spark p {
-  padding-right: 50%;
+  padding-right: 20%;
 }
 #spark img {
   float:left;
   width:180px;
   height:70px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   padding-right: 100px;
 }
 #spark video{
@@ -124,14 +125,9 @@ nav a:hover{
   height: 350px;
   padding-right: 20px;
 }
-#spark a img{
-  padding-top: 150px;
-  width:350px;
-  height:200px;
-}
+
 
 #TA {
-  width: 45%;
 	height: 400px;
   padding-left: 25%;
   padding-top: 100px;
@@ -141,6 +137,8 @@ nav a:hover{
    width:200px;
    height:100px;
    padding-bottom: 150px;
+   padding-right: 15%;
+   padding-left: 15%;
 }
 
 #contact {
