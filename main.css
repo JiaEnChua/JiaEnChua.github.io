@@ -81,7 +81,7 @@ nav a:hover{
 #sunshine {
 	background-image: url("cover4.jpg");
 	background-repeat: no-repeat;
-	min-height: 800px;
+	min-height: 700px;
 	background-size: 100%;
 	background-position: bottom center;
 }
@@ -90,12 +90,13 @@ nav a:hover{
 	font-size: 30px;
 	text-align: center;
 	color: black;
-	padding-top: 80px;
+	padding-top: 60px;
 }
 
 #contact {
 	background-color: black;
 	padding-top: 5px;
+  width:100%;
 }
 #contact p {
 	color: white;
@@ -103,8 +104,10 @@ nav a:hover{
 	margin-top: -10px;
 }
 #contact ul{
-	margin-left: 45%;
+	padding-bottom: 10px;
   padding-top: 10px;
+  width:270px;
+	margin:0 auto;
 }
 #contact li {
 	display: inline;
