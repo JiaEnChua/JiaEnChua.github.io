@@ -79,7 +79,7 @@ nav a:hover{
   height:300px;
   padding-right: 20%;
   padding-top: 100px;
-  padding-left: 25%;
+  padding-left: 20%;
 }
 #purdue img {
   padding-right: 100px;
@@ -91,8 +91,8 @@ nav a:hover{
 
 
 #aeste {
-  height:400px;
-	padding-left: 25%;
+  height:360px;
+	padding-left: 20%;
   padding-top: 3%;
 }
 #aeste img{
@@ -105,8 +105,8 @@ nav a:hover{
 }
 
 #spark {
-  height: 500px;
-	padding-left: 25%;
+  height: 460px;
+	padding-left: 20%;
   padding-bottom: 100px;
 }
 #spark p {
@@ -129,7 +129,7 @@ nav a:hover{
 
 #TA {
 	height: 400px;
-  padding-left: 25%;
+  padding-left: 20%;
   padding-top: 100px;
 }
 #TA img{
