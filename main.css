@@ -20,7 +20,7 @@ body {
 	min-height: 500px;
 	background-image: url("cover2.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 #header h1 {
 	color: white;
@@ -68,7 +68,7 @@ nav a:hover{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: cover;
 	min-height: 700px;
 }
 .caption {
@@ -135,6 +135,14 @@ nav a:hover{
   	margin-left: 10%;
   	margin-right: -20%;
   	margin-top: 150px;
+  }
+  #parallax {
+  	background-image: url("cover.jpg");
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-attachment: fixed;
+  	background-size: 100%;
+  	min-height: 700px;
   }
   .caption {
     font-size: 50px;
