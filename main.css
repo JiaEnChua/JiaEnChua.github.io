@@ -13,7 +13,7 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	margin:0;
 }
-img { max-width: 100%; }
+
 /************************* ID's *************************/
 #header {
 	text-align: center;
@@ -112,4 +112,10 @@ nav a:hover{
 #contact li {
 	display: inline;
 	margin: 20px;
+}
+@media screen and (max-width: 481px){
+#sunshine {
+  padding-top:50px;
+}
+
 }
