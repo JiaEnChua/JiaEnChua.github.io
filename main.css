@@ -116,7 +116,7 @@ nav a:hover{
 @media screen and (max-width: 481px){
   #header {
     height: 200px;
-    background-size: 100% 100%;
+    background-size: 80% 90%;
   }
   #header h1 {
     font-size: 15px;
@@ -125,7 +125,6 @@ nav a:hover{
     width: 15%;;
   	height: 15%;
     float left;
-    margin-left: 2%;
   }
   .caption {
     font-size: 20px;
