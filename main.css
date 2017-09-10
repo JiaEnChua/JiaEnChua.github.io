@@ -114,8 +114,18 @@ nav a:hover{
 	margin: 20px;
 }
 @media screen and (max-width: 481px){
-
-  #sunshine  {
-    height: 300px;
+  #header {
+    font-size: 30px;
   }
+  #header img{
+    width: 100px;
+    height: 100px;
+  }
+  .caption {
+    font-size: 50px;
+  }
+  #sunshine h1  {
+   font-size: 30px;
+  }
+
 }
