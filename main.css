@@ -114,14 +114,18 @@ nav a:hover{
 	margin: 20px;
 }
 @media screen and (max-width: 481px){
-  #header{
+  #header h1 {
     font-size: 12px;
   }
-  #header img{
-    width: 10%;;
-  	height: 10%;
+  #header img {
+    width: 15%;;
+  	height: 15%;
+    float left;
   }
-  #sunshine {
-    padding-top:50px;
+  .caption {
+    font-size: 20px;
+  }
+  #sunshine h1 {
+    font-size: 12px;
   }
 }
