@@ -119,19 +119,19 @@ nav a:hover{
   	min-height: 500px;
   	background-image: url("cover2.jpg");
   	background-repeat: no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
   }
   #header h1 {
   	color: white;
-  	font-size:400%;
+  	font-size:20px;
   	font-family: "Arial Black", sans-serif;
   	font-style: bold;
   	padding-top: 8%;
   }
   #header img {
   	float: left;
-  	width: 10%;
-  	height: 10%;
+  	width: 10mm;
+  	height: 10mm;
   	margin-left: 10%;
   	margin-right: -20%;
   	margin-top: 150px;
@@ -141,8 +141,8 @@ nav a:hover{
   	background-repeat: no-repeat;
   	background-position: center;
   	background-attachment: fixed;
-  	background-size: 100%;
-  	min-height: 700px;
+  	background-size: cover;
+  	min-height: 500px;
   }
   .caption {
     font-size: 50px;
