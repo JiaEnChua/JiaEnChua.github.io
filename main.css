@@ -126,12 +126,12 @@ nav a:hover{
   	font-size:50px;
   	font-family: "Arial Black", sans-serif;
   	font-style: bold;
-  	padding-top: 8%;
+  	padding-top: 100px;
   }
   #header img {
   	float: left;
-  	width: 10mm;
-  	height: 10mm;
+  	width: 30mm;
+  	height: 30mm;
   	margin-left: 10%;
   	margin-right: -20%;
   	margin-top: 150px;
@@ -145,7 +145,7 @@ nav a:hover{
   	min-height: 500px;
   }
   .caption {
-    padding-top: -20px;
+    margin-top: -20px;
     font-size: 50px;
   }
   #sunshine {
