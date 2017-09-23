@@ -26,10 +26,10 @@ body {
 }
 #header h1 {
 	color: white;
-	font-size: 800%;
+	font-size: 150px;
 	font-family: "Arial Black", sans-serif;
 	font-style: bold;
-	padding-top: 400px;
+	padding-top: 370px;
 }
 #header img {
 	float: left;
