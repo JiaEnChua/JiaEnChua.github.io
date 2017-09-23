@@ -17,17 +17,19 @@ body {
 /************************* ID's *************************/
 #header {
 	text-align: center;
-	min-height: 500px;
-	background-image: url("cover2.jpg");
+  height: 1000px;
+	background-image: url("cover.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 #header h1 {
 	color: white;
-	font-size:60px;
+	font-size: 800%;
 	font-family: "Arial Black", sans-serif;
 	font-style: bold;
-	padding-top: 200px;
+	padding-top: 400px;
 }
 #header img {
 	float: left;
@@ -63,25 +65,22 @@ nav a:hover{
 	border-bottom: 3px solid white;
 }
 
-#parallax {
-	background-image: url("cover.jpg");
+#whoamI {
 	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-	min-height: 700px;
+	background-color: black;
+	height: 600px;
 }
 .caption {
-	padding-top: 280px;
+	padding-top: 220px;
 	font-size: 100px;
 	text-align: center;
 	color: white;
 }
 
 #sunshine {
-	background-image: url("cover4.jpg");
+	background-image: url("cover2.jpg");
 	background-repeat: no-repeat;
-	min-height: 700px;
+	height: 600px;
 	background-size: 100%;
 	background-position: bottom center;
 }
@@ -89,8 +88,8 @@ nav a:hover{
 	font-family: "Arial Black", cursive, sans-serif;
 	font-size: 30px;
 	text-align: center;
-	color: black;
-	padding-top: 60px;
+	color: white;
+	padding-top: 50px;
 }
 
 #contact {

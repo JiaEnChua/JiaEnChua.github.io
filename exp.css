@@ -42,7 +42,7 @@ nav a:hover{
 }
 #header {
 	text-align: center;
-	height: 500px;
+	height: 600px;
 	background-image: url("cover3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -51,15 +51,15 @@ nav a:hover{
 }
 #header h1 {
 	color: white;
-	font-size:60px;
+	font-size:80px;
 	font-family: "Arial Black", sans-serif;
 	font-style: bold;
 	padding-top: 230px;
 }
 #header img {
 	float: left;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	margin-left: 130px;
 	margin-right: -250px;
 	padding-top: 180px;
@@ -91,6 +91,7 @@ nav a:hover{
   height:100px;
   float:left;
 }
+
 #aeste {
   height:360px;
 	padding-left: 20%;
@@ -104,10 +105,31 @@ nav a:hover{
    padding-bottom: 100px;
    padding-right: 15%;
 }
+
+#jobCrawler {
+  height:300px;
+  padding-right: 20%;
+  padding-top: 60px;
+  padding-left: 20%;
+}
+#jobCrawler img {
+  padding-right: 100px;
+  width:200px;
+  height:200px;
+  float:left;
+}
+#jobCrawler video{
+  float: left;
+  width: 550px;
+  height: 350px;
+  padding-right: 20px;
+}
+
 #spark {
   height: 460px;
 	padding-left: 20%;
   padding-bottom: 100px;
+  padding-top: 500px;
 }
 #spark p {
   padding-right: 20%;
@@ -130,7 +152,7 @@ nav a:hover{
 #TA {
 	height: 400px;
   padding-left: 20%;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 #TA img{
    float:right;
