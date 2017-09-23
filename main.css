@@ -80,7 +80,7 @@ nav a:hover{
 #sunshine {
 	background-image: url("cover3.jpg");
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 500px;
 	background-size: 100%;
 	background-position: bottom center;
 }
@@ -89,7 +89,7 @@ nav a:hover{
 	font-size: 30px;
 	text-align: center;
 	color: white;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 #contact {
