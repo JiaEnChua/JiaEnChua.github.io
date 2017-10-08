@@ -29,7 +29,7 @@ body {
   grid-area: header;
   text-align: center;
   height: 1000px;
-  background-image: url("cover.jpg");
+  background-image: url("pic/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
