@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+/************************* ID's *************************/
+.wrapper {
+  display:grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "header"
+    "whoamI"
+    "experience"
+    "project"
+    "contact";
+}
+
+#header {
+  grid-area: header;
+  text-align: center;
+  height: 1000px;
+  background-image: url("cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#header h1 {
+  color: white;
+  font-size: 150px;
+  font-family: "Arial Black", sans-serif;
+  font-style: bold;
+  padding-top: 370px;
+}
+#header img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 130px;
+  margin-right: -250px;
+  margin-top: 150px;
+}
+
+nav {
+	background-color: black;
+	min-height: 80px;
+  width:100%;
+  position: fixed;
+}
+nav ul{
+	font-size: 23px;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	padding-top: 25px;
+	text-align: left;
+}
+nav li {
+	margin-left: 20px;
+	display: inline;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	border-bottom: 3px solid white;
+}
+
+#whoamI {
+  grid-area: whoamI;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 400px;
+}
+.caption {
+  padding-top: 150px;
+  font-size: 500%;
+  text-align: center;
+  color: white;
+}
+
+
+#Experience {
+  padding: 80px;
+  grid-area: experience;
+  display:grid;
+  grid-gap: 100px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.purdue {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas:
+  "image title";
+}
+.purdue img {
+  grid-area: image;
+  width:200px;
+  height:100px;
+  padding-left: 50%;
+}
+.purdue_desc {
+  grid-area: title;
+  width:70%;
+}
+
+.aeste {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas:
+  "image title";
+}
+.aeste img {
+  grid-area: image;
+  width:200px;
+  height:100px;
+  padding-left: 50%;
+}
+.aeste_desc {
+  grid-area: title;
+    width:70%;
+}
+
+.TA {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas:
+  "image title";
+}
+.TA img {
+  grid-area: image;
+  width:200px;
+  height:100px;
+  padding-left: 50%;
+}
+.TA_desc {
+  grid-area: title;
+    width:70%;
+}
+
+#Project {
+ padding-top: 100px;
+ grid-area: project;
+ grid-gap: 100px;
+}
+
+#jobCrawler {
+  height:500px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+#jobCrawler img {
+  padding-right: 100px;
+  width:200px;
+  height:200px;
+  float:left;
+}
+#jobCrawler video{
+  float: left;
+  width: 550px;
+  height: 350px;
+  padding-right: 20px;
+}
+
+#spark {
+  height: 500px;
+	padding-left: 20%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#spark p {
+  padding-right: 20%;
+}
+#spark img {
+  float:left;
+  width:180px;
+  height:70px;
+  padding-bottom: 200px;
+  padding-right: 100px;
+}
+#spark video{
+  float: left;
+  width: 550px;
+  height: 350px;
+  padding-right: 20px;
+}
+
+
+#contact {
+  grid-area: contact;
+  background-color: black;
+  padding-top: 5px;
+}
+#contact p {
+  color: white;
+  font-size: 15px;
+}
+#contact ul {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+#contact li {
+  display: inline;
+  margin: 20px;
+}
+@media screen and (max-width: 481px) {
+  #header {
+    text-align: center;
+    height: 300px;
+    background-image: url("cover2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #header h1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arial Black", sans-serif;
+    font-style: bold;
+    padding-top: 100px;
+  }
+  #header img {
+    float: left;
+    width: 30mm;
+    height: 30mm;
+    margin-left: 10%;
+    margin-right: -20%;
+    margin-top: 150px;
+  }
+  #whoamI {
+    background-image: url("cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+  }
+  .caption {
+    margin-top: -20px;
+    font-size: 50px;
+  }
+  #intro {
+    height: 200px;
+    background-size: cover;
+  }
+  #intro h1 {
+    font-size: 30px;
+  }
+}
