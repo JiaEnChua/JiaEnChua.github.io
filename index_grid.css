@@ -29,7 +29,7 @@ body {
   grid-area: header;
   text-align: center;
   height: 1000px;
-  background-image: url("pic/cover.jpg");
+  background-image: image("pic/cover.jpg"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -195,6 +195,23 @@ nav a:hover{
   padding-right: 20px;
 }
 
+#pdfgenerator {
+  height:500px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+#pdfgenerator img {
+  padding-right: 100px;
+  width:200px;
+  height:200px;
+  float:left;
+}
+#pdfgenerator video{
+  float: left;
+  width: 550px;
+  height: 350px;
+  padding-right: 20px;
+}
 
 #contact {
   grid-area: contact;
