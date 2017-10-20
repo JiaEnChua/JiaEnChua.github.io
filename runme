@@ -2,4 +2,4 @@
 	git add --all 
 	read var
 	echo Comment: $var
-	git commit -m var
+	git commit -m $var
