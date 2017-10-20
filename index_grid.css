@@ -29,7 +29,7 @@ body {
   grid-area: header;
   text-align: center;
   height: 1000px;
-  background-image: image("pic/cover.jpg");
+  background-image: url("pic/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -110,6 +110,7 @@ nav a:hover{
   padding-left: 50%;
 }
 .purdue_desc {
+  	padding-left: 20%;
   grid-area: title;
   width:70%;
 }
@@ -127,6 +128,7 @@ nav a:hover{
   padding-left: 50%;
 }
 .aeste_desc {
+  	padding-left: 20%;
   grid-area: title;
     width:70%;
 }
@@ -144,6 +146,7 @@ nav a:hover{
   padding-left: 50%;
 }
 .TA_desc {
+  	padding-left: 20%;
   grid-area: title;
     width:70%;
 }
@@ -155,9 +158,10 @@ nav a:hover{
 }
 
 #jobCrawler {
-  height:500px;
-  padding-right: 20%;
-  padding-left: 20%;
+  height: 500px;
+	padding-left: 20%;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 #jobCrawler img {
   padding-right: 100px;
@@ -171,9 +175,46 @@ nav a:hover{
   height: 350px;
   padding-right: 20px;
 }
+
 #spark {
-  width: 180px;
-  height: 70px;
+  height: 500px;
+	padding-left: 20%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#spark p {
+  padding-right: 20%;
+}
+#spark img {
+  float:left;
+  width:100px;
+  height:10px;
+  padding-bottom: 200px;
+  padding-right: 100px;
+}
+#spark video{
+  float: left;
+  width: 550px;
+  height: 350px;
+  padding-right: 20px;
+}
+#pdf {
+  height: 500px;
+	padding-left: 20%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#pdf img {
+  padding-right: 100px;
+  width:200px;
+  height:200px;
+  float:left;
+}
+#pdf video{
+  float: left;
+  width: 550px;
+  height: 350px;
+  padding-right: 20px;
 }
 
 #contact {
