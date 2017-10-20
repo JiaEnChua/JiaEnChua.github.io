@@ -1,5 +1,5 @@
 #!/bin/bash
 	git add --all 
 	read var
-	Comment: $var
+	echo Comment: $var
 	git commit -m var
