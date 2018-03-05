@@ -18,7 +18,7 @@
   <nav>
         <ul class="navbar-nav">
           <li class="nav-item active"><a class="nav-link scroll" href="#header">Home</a></li>
-          <li class="nav-item active"><a class="nav-link scroll" href="#Experience">Experience</a></li>
+          <li class="nav-item active"><a class="nav-link scroll" href="#achievement">Experience</a></li>
           <li class="nav-item active"><a class="nav-link scroll" href="#Project">Project</a></li>
           <li class="nav-item active"><a class="nav-link scroll" href="#contact">Contact</a></li>
         </ul>
@@ -33,78 +33,119 @@
     <h1>Jia En Chua</h1>
   </div>
 
-  <div id="whoamI">
+  <div id="achievement">
     <div class="caption">
-      <h1>- WHAT HAVE I ACHIEVED -</h1></div>
+      <h1>- WHAT HAVE I ACHIEVED -</h1>
+    </div>
   </div>
 
   <div id="Experience">
-    <div class="purdue">
-      <img src="pic/purdue.png">
-      <div class="purdue_desc">
-      <h3>B.S. in Computer Engineering, graduate in Fall 2018</h3>
-      <h4>West Lafayette, Indiana</h4>
-      <p>I appreciate the opportunity of being one of the 'Boilermakers' here in Purdue. I seize every chance of improving myself in every way by not only focusing on academic but also joining the co-curricular clubs like IEEE and EPICS. I take part in research
-        opportunity and also contribute my knowledge to freshman and sophomore by being a teaching assistant. I enjoy every moment in Purdue and can't wait to apply the knowledge I gained here to the outside world!</p></div>
+    <div id="purdue">
+          <div class="img">
+            <img src="pic/purdue.png">
+          </div>
+          <div class="desc">
+            <h3>B.S. in Computer Engineering, graduate in Fall 2018</h3>
+            <h4>West Lafayette, Indiana</h4>
+            <br>
+            <p>I appreciate the opportunity of being one of the 'Boilermakers' here in Purdue. I seize every chance of improving myself in every way by not only focusing on academic but also joining the co-curricular clubs like IEEE and EPICS. I take part in research
+              opportunity and also contribute my knowledge to freshman and sophomore by being a teaching assistant. I enjoy every moment in Purdue and can't wait to apply the knowledge I gained here to the outside world!
+            </p>
+          </div>
     </div>
 
-    <div class="aeste">
-      <img src="pic/aeste.png">
-      <div class="aeste_desc">
-      <h3>Software Engineering Intern, Summer 2017</h3>
-      <h4>Kuala Lumpur, Malaysia</h4>
-      <ul>
-        <li>I work in a team of 5 to develop a web-based integrated environment for chip design.</li>
-        <li>I create C++ program to automate synthesis process and result in an increase of 40% production speed.</li>
-        <li>I implement algorithm to optimize space complexity(30% of space is saved) by recursively arranging blocks in circuit design.</li>
-        </ul></div>
+    <div id="aeste">
+        <div class="img">
+          <img src="pic/aeste.png">
+        </div>
+        <div class="desc">
+            <h3>Software Engineering Intern, Summer 2017</h3>
+            <h4>Kuala Lumpur, Malaysia</h4>
+            <br>
+            <ul>
+              <li>I work in a team of 5 to develop a web-based integrated environment for chip design.
+              </li>
+              <li>I create C++ program to automate synthesis process and result in an increase of 40% production speed.
+              </li>
+              <li>I implement algorithm to optimize space complexity(30% of space is saved) by recursively arranging blocks in circuit design.
+              </li>
+           </ul>
+        </div>
     </div>
 
-    <div class="TA">
-      <img src="pic/purdue.png">
-      <div class="TA_desc">
-      <h3>Teaching Assistant, Electronic Devices and Design Laboratory, Fall 2017</h3>
-      <h4>West Lafayette, Indiana</h4>
-      <ul>
-        <li>Provide assistance to a class of 15 undergraduates in electronic design lab.</li>
-        <li>Perform circuit debugging and utilize oscilloscope to verify result. </li>
-        <li>Clarify student's confusions by provide comprehensive explanation.</li></div>
-      </ul>
-    </div>
+    <div id="TA">
+      <div class="img">
+        <img src="pic/purdue.png">
+      </div>
+      <div class="desc">
+        <h3>Teaching Assistant, Electronic Devices and Design Laboratory, Fall 2017</h3>
+        <h4>West Lafayette, Indiana</h4>
+        <br>
+        <ul>
+          <li>Provide assistance to a class of 15 undergraduates in electronic design lab.</li>
+          <li>Perform circuit debugging and utilize oscilloscope to verify result. </li>
+          <li>Clarify student's confusions by provide comprehensive explanation.</li></div>
+        </ul>
+      </div>
   </div>
 
   <div id="Project">
+
     <div id="jobCrawler">
-      <img src="pic/python.png">
-      <h3>Dream Job Catcher, Fall 2017</h3>
-      <p>Using Python Selenium webdriver to launch a 'search' on recruiting site. Navigation the desired page and parse the entire webpage. Crawl job information like title, company, location, salary and so on by using BautifulSoup. Generate a cvs spreadsheet
-        and output information extracted online.</p>
-      <video controls>
-						<source src="jobcrawler.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
+      <div class="container">
+          <div class="img">
+            <img src="pic/python.png">
+          </div>
+      </div>
+      <div class="desc">
+        <h3>Dream Job Catcher, Fall 2017</h3>
+        <br>
+        <p>Using Python Selenium webdriver to launch a 'search' on recruiting site. Navigation the desired page and parse the entire webpage. Crawl job information like title, company, location, salary and so on by using BautifulSoup. Generate a cvs spreadsheet
+          and output information extracted online.</p>
+          <br>
+        <video controls>
+              <source src="jobcrawler.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
 
     <div id="spark">
-      <img src="pic/sparkchl.png">
-      <h3>Autonomous Obstacle-avoiding Robot, Spring 2017</h3>
-      <p>I co-wrote the software for this robot. I invented the logic and convinced my teammates of the efficiency of my solution in terms of space complexity. Space is important in this competition because we are using 9S12C micro-controller which does
-        not have a decent amount of memory space. I utilized tool like GDB to efficiently debug the program and I make sure the code is human-readable.</p>
-      <video controls>
-	  					<source src="Robot.mov" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
+      <div class="container">
+          <div class="img">
+            <img src="pic/sparkchl.png">
+          </div>
+      </div>
+      <div class="desc">
+        <h3>Autonomous Obstacle-avoiding Robot, Spring 2017</h3>
+        <br>
+        <p>I co-wrote the software for this robot. I invented the logic and convinced my teammates of the efficiency of my solution in terms of space complexity. Space is important in this competition because we are using 9S12C micro-controller which does not have a decent amount of memory space. I utilized tool like GDB to efficiently debug the program and I make sure the code is human-readable.</p>
+        <br>
+        <video controls>
+              <source src="Robot.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
 
     <div id="pdf">
-      <img src="pic/pdfgenerator.png">
-      <h3>PDF Generator, Fall 2017</h3>
-      <p>Generate a PDF version of map being viewed. Using DroneDeploy API to extract an array of images and merge them on a canvas by computing the proper coordinates. Use a proxy server to wrap the link provided by API to enable CORS protocol.</p>
-      <video controls>
-              <source src="PDFgenerator.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+      <div class="container">
+          <div class="img">
+            <img src="pic/pdfgenerator.png">
+          </div>
+      </div>
+      <div class="desc">
+        <h3>PDF Generator, Fall 2017</h3>
+        <br>
+        <p>Generate a PDF version of map being viewed. Using DroneDeploy API to extract an array of images and merge them on a canvas by computing the proper coordinates. Use a proxy server to wrap the link provided by API to enable CORS protocol.</p>
+        <br>
+         <video controls>
+            <source src="PDFgenerator.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
+    
   </div>
 
   <div id="contact">
