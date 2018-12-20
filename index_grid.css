@@ -41,7 +41,7 @@ video {
   align-items: center;
   justify-content: center;
   height: 900px;
-  background-image: url("pic/cover.jpg");
+  background-image: url("pic/gradbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -160,7 +160,24 @@ nav a:hover{
   grid-area: project;
   grid-gap: 100px;
   display:grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#handi_glove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#handi_glove .container{
+  float:left;
+}
+#handi_glove .img {
+  width:200px;
+  height:200px;
+}
+#handi_glove .desc{
+  margin-left: 10%;
+  width: 50%;
 }
 
 #jobCrawler {
